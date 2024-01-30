@@ -1,0 +1,70 @@
+body {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 3%;
+    width: 400px;
+
+}
+
+#authpage {
+    margin-left: 25%;
+    width: 45%;
+
+}
+
+
+#authpage input {
+    width: 80%;
+}
+
+form {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    border: 5px ridge #192f5e;
+    box-shadow: 10px 10px black;
+    border-radius: 5px;
+}
+
+#cardnumber,
+#CardSelector,
+#amount {
+    margin-bottom: 5px;
+}
+
+#exp {
+    margin-right: 10px;
+}
+
+.sameline {
+    justify-content: space-between;
+}
+
+#CardSelector,
+#Dealer {
+    text-align: center;
+    margin: 5px;
+    height: 25px;
+}
+
+#pdfButton {
+    margin: 10px;
+}
+
+.firstoption {
+    display: none;
+}

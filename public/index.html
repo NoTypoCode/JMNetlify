@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JM Credit Card</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+    <img src="images/image001.png" alt="JM Auto" id="logo">
+
+    <div id="authpage">
+        <form id="auth">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" ><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" ><br>
+            <button id="login">Sign in</button>
+        </form>
+    </div>
+
+    
+    <form name="theForm" id="theForm">
+
+        <label for="name">Customer: </label>
+        <input type="text" name="name" id="name">
+
+        <label for="amount">Amount to be paid: </label>
+        <input type="number" name="amount" id="amount">
+
+
+        <select name="CardSelector" id="CardSelector">
+            <option class="firstoption">Select Credit Card</option>
+        </select><br>
+
+        <select name="Dealer" id="Dealer">
+            <option class="firstoption">Select Dealer</option>
+        </select>
+
+
+
+        <button type="submit" form="theForm" id="pdfButton" disabled>Export to PDF</button>
+
+    </form>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"
+    integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/"
+    crossorigin="anonymous"></script>
+<script src="SignatureFont.js"></script>
+<script src="index.js"></script>
+
+</html>
